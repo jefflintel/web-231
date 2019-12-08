@@ -53,10 +53,10 @@ var number = 3.456;
 var numOfFixedPositions = 2;
 console.log(number + " formatted to " + numOfFixedPositions + " positions: " + formatNumber(number, numOfFixedPositions));
 
-var string = "12.345"
-
 //call convertToInt and display integer value
-console.log(string + " converted to an integer: " + convertToInt(string));
+var stringInt = "12.345";
+console.log(stringInt + " converted to an integer: " + convertToInt(stringInt));
 
 //call convertToFloat and display float value
-console.log(string + " converted to a float: " + convertToFloat(string));
+var stringFloat = "0.0000009876";
+console.log(stringFloat + " converted to a float: " + convertToFloat(stringFloat));

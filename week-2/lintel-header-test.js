@@ -8,6 +8,9 @@
 ;===========================================
 */
 
+//Use require statement to import header
 const header = require('./lintel-header.js');
 
+//Display formatted header using console.log()
 console.log(header.display("Jeff", "Lintel", "Exercise 2.2"));
+
