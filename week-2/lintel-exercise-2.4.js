@@ -9,6 +9,9 @@
 ;===========================================
 */
 
+const header = require('../lintel-header.js');
+
+console.log(header.display("Jeff", "Lintel", "Exercise 2.4"));
 
 //1. fullName function returning firstName + lastName. Params firstName, lastName
 function fullName(firstName, lastName) {
