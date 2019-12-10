@@ -3,7 +3,7 @@
 ; Title: kenney-assignment-3.1.js
 ; Author: Sean Kenney
 ; Date: 08 December 2019
-; Modified By: Jeff Linte
+; Modified By: Jeff Lintel
 ; Description: Control statements that contains errors
 ; This program intentionally has errors.
 ; Code is written based on textbook reading,
@@ -37,6 +37,6 @@ break;
 case currentAge > 20 && currentAge <= 100 :
 console . log ( " \n Above legal drinking age" );
 break;
-default;
+default:
 console . log ( " \n Age needs to be a value of 0-100" );
 };
