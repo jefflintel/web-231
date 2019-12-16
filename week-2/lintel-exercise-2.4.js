@@ -42,24 +42,17 @@ function convertToFloat(string) {
 //call fullName and display full name
 var firstName = "Jeff";
 var lastName = "Lintel"
-console.log("Full name: " + fullName("Jeff", "Lintel"));
+console.log("Hello my name is " + fullName("Jeff", "Lintel")+ "!");
 
 //call dateWriter and display date
 var year = 2019;
 var month = 11;
 var day = 4;
-console.log(dateWriter(year, month, day));
-console.log(date);
-
-//call formatNumber and display formatted number
-var number = 3.456;
-var numOfFixedPositions = 2;
-console.log(number + " formatted to " + numOfFixedPositions + " positions: " + formatNumber(number, numOfFixedPositions));
+var number = 33.567;
+var numOfFixedPositions = 1;
+console.log("\nToday's date is " + dateWriter(year, month, day) + " and the current temperature is "+ formatNumber(number, numOfFixedPositions) +" degrees.");
 
 //call convertToInt and display integer value
-var stringInt = "12.345";
-console.log(stringInt + " converted to an integer: " + convertToInt(stringInt));
-
-//call convertToFloat and display float value
-var stringFloat = "0.0000009876";
-console.log(stringFloat + " converted to a float: " + convertToFloat(stringFloat));
+var age = "39";
+var savings ="750000";
+console.log("I am " + convertToInt(age) + " years old and my savings account goal is " + convertToFloat(savings) + " dollars.");
