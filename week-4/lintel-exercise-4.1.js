@@ -1,6 +1,6 @@
 /*
 ============================================
-; Title:  lintel-exercise-4.2.js
+; Title:  lintel-exercise-4.1.js
 ; Author: Jeff Lintel
 ; Date:   16 December 2019
 ; Description: Array program with 2 errors
