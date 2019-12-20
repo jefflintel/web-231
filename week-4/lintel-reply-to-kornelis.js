@@ -12,7 +12,7 @@
 const header = require('../lintel-header.js')
 
 // Call the console.log() function and output a well-formatted header
-console.log(header.display("Izabella", "Kornelis", "Assignment 3.1"));
+console.log(header.display("Jeff", "Lintel", "Assignment 4.1"));
 // new line
 console.log('\n')
 
