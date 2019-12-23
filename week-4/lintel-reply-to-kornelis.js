@@ -19,7 +19,7 @@ console.log('\n')
 // start program
 
 // variable declaration
-var name = ("Kornelis", "Izabella", "Patricia"); //changed () to []
+var name = ["Kornelis", "Izabella", "Patricia"]; //changed () to []
 
 // function
 function add(){
