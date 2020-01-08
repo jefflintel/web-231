@@ -1,6 +1,6 @@
 /*
 ============================================
-; Title:  lintel-exercise-5.4.js
+; Title:  lintel-exercise-5.1.js
 ; Author: Jeff Lintel
 ; Date:   8 January 2020
 ; Description: Display instrument name and
