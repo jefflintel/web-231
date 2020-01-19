@@ -1,6 +1,6 @@
 /*
 ============================================
-; Title:  lintel-exercise-6.3.js
+; Title:  lintel-exercise-6.4.js
 ; Author: Jeff Lintel
 ; Date:   13 January 2020
 ; Description: Demonstrate nested objects

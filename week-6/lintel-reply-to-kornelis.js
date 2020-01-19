@@ -43,6 +43,6 @@ var oldPet = {
 console.log (pet.name.firstName + " is a " + pet.color + " " + pet.breed + " who is " + pet.age + ".") //changed pet.firstName to pet.name.firstName. Added a space between pet color and breed.
 
 // expected output "Cheaka is a black American Shorthair who is 10."
-console.log (oldPet.name.firstName + " is a " + oldPet.color + " " + oldPet.breed + " who is " + oldPet.age + ".")
+console.log (oldPet.name.firstName + " is a " + oldPet.color + " " + oldPet.breed + " who is " + oldPet.age + ".") //changed all instances of pet to oldPet. Updated object reference. Added a space between pet color and breed.
 
 // end program

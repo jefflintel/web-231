@@ -26,7 +26,7 @@ var Student = {
 }
 
 // creating a new Student object using Object.create inheriting properties
-var student1 = Object.create(Student);
+var student1 = Object.create(Student); //changed C to c
 
 student1.name = 'Richard Boe';
 student1.grade = "A";
