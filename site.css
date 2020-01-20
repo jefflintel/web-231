@@ -1,0 +1,18 @@
+/*
+============================================
+; Title:  site.css
+; Author: Jeff Lintel
+; Date:   20 January 2020
+; Description: styling for Javascript 1
+;===========================================
+*/
+
+thead {
+  background-color: #6495ed;
+  color: #f0f0f0;
+}
+
+tr:nth-child(even) {
+  background-color: #add8e6;
+}
+
