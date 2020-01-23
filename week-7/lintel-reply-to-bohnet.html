@@ -1,0 +1,38 @@
+
+<!--
+============================================
+; Title:  bohnet-assignment-7.1.html
+; Author: Chris Bohnet
+; Date:   21 January 2020
+; Description: 2 errors
+;===========================================
+-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>A demonstration of how to access a SELECT element</h3>
+
+<select id="selectFruit" size="4">
+  <option>Apple</option>
+  <option>Peach</option>
+  <option>Banana</option>
+</select>
+
+<p>Click the button to get the number elements found in a drop-down list.</p>
+
+<button onclick="myFunction()">How many?</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var fruitList = document.getElementById("selectFruit").length; //changed "mySelect" to "selectFruit"
+  document.getElementById("demo").innerHTML = x; //changed x to fruitList
+}
+</script>
+
+</body>
+</html>
+
