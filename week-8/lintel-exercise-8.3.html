@@ -1,0 +1,78 @@
+<!--
+============================================
+; Title:  lintel-exercise-8.3.html
+; Author: Professor Krasso
+; Date:   25 June 2017
+; Description: Demonstrates the use of jQuery
+;===========================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 8.3</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../site.css">
+</head>
+<body>
+
+<h2>Part A</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget porta neque, a congue orci. Donec ultricies laoreet lorem,
+  at fringilla lectus ultricies id. Donec et consequat neque. Praesent vitae quam nibh. Vivamus posuere ante lectus, vitae
+  bibendum est convallis vitae. Sed maximus ipsum a turpis auctor blandit. Aliquam aliquam, eros ut porttitor hendrerit, tellus
+  justo vestibulum metus, nec malesuada ex nibh vestibulum purus. Vivamus ornare nibh et elit pulvinar tincidunt sit amet varius
+  est. Curabitur ultrices nulla est, vel vehicula lacus pretium vitae. Proin tincidunt elit vel urna ultricies, in iaculis lacus interdum.
+  Cras finibus congue rhoncus. Duis dapibus vitae leo et euismod.</p>
+
+<button>Toggle</button>
+
+<h2>Part B</h2>
+
+<table>
+  <thead>
+    <td>ID</td>
+    <td>Name</td>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="#" class="fruitID">221</a></td >
+      <td>Apple</td>
+    </tr>
+    <tr>
+      <td><a href="#" class="fruitID">354</a></td>
+      <td>Banana</td>
+    </tr>
+    <tr>
+      <td><a href="#" class="fruitID">453</a></td>
+      <td>Peach</td>
+    </tr>
+    <tr>
+      <td><a href="#" class="fruitID">678</a></td>
+      <td>Watermelon</td>
+    </tr>
+    <tr>
+      <td><a href="#" class="fruitID">985</a></td>
+      <td>Cherry</td>
+    </tr>
+  </tbody>
+</table>
+<script>
+    $(function () {
+        $("button").click(function () {
+            $("p").toggle()
+        });
+
+        $(".fruitID").click(function (event) {
+            event.preventDefault();
+            var fruitID = $(this).text();
+            var fruitType = $(this).closest("td").next().text();
+            alert("Fruit ID: "+ fruitID + ". Fruit Name: " + fruitType);
+        });
+    });
+</script>
+
+</body>
+</html>

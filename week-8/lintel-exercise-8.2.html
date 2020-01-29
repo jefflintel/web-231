@@ -1,0 +1,48 @@
+<!--
+============================================
+; Title:  lintel-exercise-8.2.html
+; Author: Professor Krasso
+; Date:   27 December 2020
+; Modified by: Jeff Lintel
+; Description: Demonstrates the generation of dynamic HTML
+;===========================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic HTML</title>
+
+    <link rel="stylesheet" href="../site.css">
+
+</head>
+<body>
+
+<div id="fruits"></div>
+
+<script>
+    var fruits = [
+      { id: 221,
+      name: "apple" },
+      { id: 354,
+      name: "banana" },
+      { id: 453,
+      name: "peach" },
+      { id: 678,
+      name: "watermelon" },
+      { id: 985,
+      name: "cherry",}
+    ];
+
+    var out = "<h2>Fruits</h2><ul>";
+    for (var i = 0; i < fruits.length; i++) {
+        out += "<li>" + fruits[i].name + ": " + fruits[i].id + "</li>";
+    }
+    out += "</ul>";
+
+    document.getElementById('fruits').innerHTML = out;
+</script>
+
+</body>
+</html>
