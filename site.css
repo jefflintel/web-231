@@ -16,6 +16,12 @@ tr:nth-child(even) {
   background-color: #add8e6;
 }
 
-p, table {
+nav {
+  background-color: #0C4E7A;
+  height: 5vh;
+}
+
+#container {
+  margin-left: 20px;
   font-family: 'Roboto', sans-serif;
 }
